@@ -1,5 +1,4 @@
 def call(String stageName){
-  
   if("${stageName}" == "Build"){
     echo "Building package"
     sh "mvn package"
